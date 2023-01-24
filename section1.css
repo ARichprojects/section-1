@@ -1,0 +1,50 @@
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+.title { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: -0.084px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+button {
+    background: #006633;
+    border-radius: 20px;
+    width: 127px;
+    height: 32px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+button:hover {
+    background: #55AE3A;
+}
+button:active {
+    background: #363636;
+}
+.trashbin{
+    position: relative;
+    left: -5px;
+}
+button:disabled,
+button[disabled]{
+  background-color: #DADADA;
+  color: #BFBFBF;
+}
